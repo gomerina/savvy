@@ -1,0 +1,29 @@
+.savvy-start.savvy-smart.savvy-start__steps {
+  display: block;
+  max-width: none;
+}
+
+.savvy-start__slide .savvy-start__sub {
+  margin-top: 0;
+}
+
+.form-select {
+  z-index: 3 !important;
+}
+
+.form-select.opened {
+  z-index: 4 !important;
+}
+
+.hide-shares {
+  display: none;
+}
+
+.savvy-start__check-wrap.savvy-start__check-wrap--spec {
+  margin-bottom: 20px;
+}
+
+.main-radio label span::after, .main-checkbox label span::after {
+  -webkit-transition: 0s;
+  transition: 0s;
+}

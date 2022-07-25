@@ -1,0 +1,36 @@
+<svg width="320" height="440" viewBox="0 0 320 440" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="320" height="440" fill="#FF8552"/>
+<g opacity="0.1">
+<path d="M0.668243 447.783C126.899 447.783 229.228 345.501 229.228 219.33C229.228 93.159 126.899 -9.12305 0.668243 -9.12305C-125.562 -9.12305 -227.892 93.159 -227.892 219.33C-227.892 345.501 -125.562 447.783 0.668243 447.783Z" fill="#FFF3EE"/>
+<path d="M272 -52C272 97.4814 151.119 218.66 2.00488 218.66C2.00488 69.1786 122.886 -52 272 -52Z" fill="#FF8552"/>
+<path d="M272 484.117V492H264.136C119.365 492 2.00491 374.351 2.00491 229.223V221.34H9.86887C154.64 221.34 272 338.989 272 484.117Z" fill="#FF8552"/>
+</g>
+<g opacity="0.08">
+<mask id="mask0" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="211" y="0" width="440" height="440">
+<path d="M650.999 31.7091V0H211L211 31.7091C211 111.543 253.523 181.444 317.155 220C253.523 258.556 211.001 328.458 211.001 408.291L211.001 440L651 440V408.291C651 328.457 608.477 258.556 544.845 220C608.477 181.444 650.999 111.542 650.999 31.7091Z" fill="#FF6B3B"/>
+</mask>
+<g mask="url(#mask0)">
+<rect width="440" height="440" transform="translate(211)" fill="#FFF3EE"/>
+<g clip-path="url(#clip0)">
+<mask id="mask1" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="211" y="-5" width="225" height="226">
+<rect width="224.754" height="224.871" transform="matrix(8.42937e-08 1 1 -8.42937e-08 211 -4.14844)" fill="white"/>
+</mask>
+<g mask="url(#mask1)">
+<g filter="url(#filter0_f)">
+<ellipse rx="137.581" ry="137.5" transform="matrix(-0.707291 0.706923 0.707291 0.706922 228.917 19.1997)" fill="#24963B"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_f" x="17.9032" y="-191.743" width="422.028" height="421.885" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="36.7188" result="effect1_foregroundBlur"/>
+</filter>
+<clipPath id="clip0">
+<rect width="220" height="222.2" fill="white" transform="matrix(1 -8.74228e-08 -8.74228e-08 -1 211 222.2)"/>
+</clipPath>
+</defs>
+</svg>

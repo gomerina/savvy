@@ -1,0 +1,59 @@
+<svg width="873" height="713" viewBox="0 0 873 713" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.25">
+<mask id="mask0" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-27" y="0" width="600" height="600">
+<path d="M16.2396 0.000915527H-27L-27 600L16.2397 600C125.104 600 220.424 542.014 273 455.243C325.576 542.013 420.897 599.999 529.76 599.999L573 599.999L573 0H529.76C420.896 0 325.576 57.986 273 144.757C220.424 57.9865 125.103 0.000915527 16.2396 0.000915527Z" fill="#F6F4D2"/>
+</mask>
+<g mask="url(#mask0)">
+<rect width="600" height="600" transform="translate(-27 600) rotate(-90)" fill="#F6F4D2"/>
+</g>
+</g>
+<g opacity="0.15">
+<mask id="mask1" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="273" y="113" width="600" height="600">
+<path d="M316.24 113.001H273L273 713L316.24 713C425.104 713 520.424 655.014 573 568.243C625.576 655.013 720.897 712.999 829.76 712.999L873 712.999L873 113H829.76C720.896 113 625.576 170.986 573 257.757C520.424 170.987 425.103 113.001 316.24 113.001Z" fill="#FF6B3B"/>
+</mask>
+<g mask="url(#mask1)">
+<rect width="600" height="600" transform="translate(273 713) rotate(-90)" fill="#F6F8FF"/>
+<g style="mix-blend-mode:color">
+<rect x="273" y="713" width="229.832" height="229.832" transform="rotate(-90 273 713)" fill="white"/>
+</g>
+<g clip-path="url(#clip0)">
+<mask id="mask2" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="575" y="112" width="305" height="306">
+<rect width="304.013" height="304.013" transform="matrix(-1 0 0 1 879.171 112.999)" fill="white"/>
+</mask>
+<g mask="url(#mask2)">
+<g filter="url(#filter0_f)">
+<ellipse rx="186.051" ry="185.941" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 847.589 137.223)" fill="#FF8A5A"/>
+</g>
+</g>
+</g>
+<g clip-path="url(#clip1)">
+<mask id="mask3" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="267" y="406" width="307" height="307">
+<rect width="306.483" height="306.643" transform="matrix(1 -8.42937e-08 -8.42937e-08 -1 267.343 713)" fill="white"/>
+</mask>
+<g mask="url(#mask3)">
+<g filter="url(#filter1_f)">
+<ellipse rx="187.611" ry="187.5" transform="matrix(0.706923 0.707291 0.706922 -0.707291 299.182 688.567)" fill="#24963B"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_f" x="588.16" y="-122.206" width="518.857" height="518.857" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="36.7164" result="effect1_foregroundBlur"/>
+</filter>
+<filter id="filter1_f" x="38.2374" y="427.525" width="521.889" height="522.084" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="36.7188" result="effect1_foregroundBlur"/>
+</filter>
+<clipPath id="clip0">
+<rect width="300" height="300" fill="white" transform="matrix(0 1 1 0 573 113)"/>
+</clipPath>
+<clipPath id="clip1">
+<rect width="300" height="303" fill="white" transform="matrix(-8.74228e-08 -1 -1 8.74228e-08 576 713)"/>
+</clipPath>
+</defs>
+</svg>

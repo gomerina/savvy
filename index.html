@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--<base href="https://savvy.bukino.ru/">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="vendor/css/formstyler.css">
+    <link rel="stylesheet" href="vendor/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="vendor/css/perfect-scrollbar.css">
+    <link rel="stylesheet" href="vendor/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="vendor/css/air-datepicker.css">
+    <link rel="stylesheet" href="vendor/css/style.css">
+    <link rel="stylesheet" href="vendor/css/add-styles.css">
+    <link rel="stylesheet" href="vendor/css/custom.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <title>Home - SAVVY PLATFORM PTE. LTD</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <!-- Global site tag (gtag.js) - Google Ads: 10860407325 -->
+
+
+    <link rel="stylesheet" href="/assets/components/office/css/main/default.css" type="text/css" />
+    <script
+        type="text/javascript">OfficeConfig = { "cssUrl": "\/assets\/components\/office\/css\/", "jsUrl": "\/assets\/components\/office\/js\/", "actionUrl": "\/assets\/components\/office\/action.php", "close_all_message": "close all", "pageId": 1, "csrf": "e92b58b952384f6a5e5f1422f4aca2f8" };</script>
+    <link rel="stylesheet" href="/assets/components/office/css/auth/default.css" type="text/css" />
+    <link rel="stylesheet" href="/assets/components/ajaxform/css/default.css" type="text/css" />
+</head>
+
+<body>
+    <header class="header compensate-for-scrollbar">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__top-row">
+                    <div class="header__mob-col">
+                        <a class="header__mob-item js-menu-open" href="#">
+                            <img src="vendor/img/h-mob-icon-1.svg" alt="SAVVY PLATFORM PTE. LTD">
+                        </a>
+
+                        <div class="header__select-col header__nav--mobile">
+                            <!-- НОВОЕ МЕНЮ ВЫБОРА -->
+                            <div class="custom-select">
+                                <span class="custom-select__value">SGD</span>
+                                <input type="hidden" class="custom-select__input">
+                                <ul class="select-menu">
+                                    <li class="select-menu__item current">SGD</li>
+                                    <li class="select-menu__item">USD</li>
+                                    <li class="select-menu__item">EUR</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__left">
+                        <div class="header__logo">
+                            <a href="https://savvy.bukino.ru/">
+                                <img src="vendor/img/logo.svg" alt="SAVVY PLATFORM PTE. LTD">
+                            </a>
+                        </div>
+                        <div class="header__select-col desctope-select">
+                            <!--<select class="header__select main-select js-select jsCurrencySelect">
+                                <option value="1" class="selected" selected>SGD</option>
+                                <option value="2">USD</option>
+                                <option value="3">EUR</option>
+                            </select>-->
+                            <!-- НОВОЕ МЕНЮ ВЫБОРА -->
+                            <div class="custom-select">
+                                <span class="custom-select__value">SGD</span>
+                                <input type="hidden" class="custom-select__input">
+                                <ul class="select-menu">
+                                    <li class="select-menu__item current">SGD</li>
+                                    <li class="select-menu__item">USD</li>
+                                    <li class="select-menu__item">EUR</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__right">
+                        <a class="header__tel header__tel--email" href="mailto:iamsavvy@iamsavvy.com.sg">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M16.9395 3C18.2805 3 19.5705 3.53 20.5195 4.481C21.4695 5.43 22.0005 6.71 22.0005 8.05V15.95C22.0005 18.74 19.7305 21 16.9395 21H7.06049C4.26949 21 2.00049 18.74 2.00049 15.95V8.05C2.00049 5.26 4.25949 3 7.06049 3H16.9395ZM18.5305 9.54L18.6105 9.46C18.8495 9.17 18.8495 8.75 18.5995 8.46C18.4605 8.311 18.2695 8.22 18.0705 8.2C17.8605 8.189 17.6605 8.26 17.5095 8.4L13.0005 12C12.4205 12.481 11.5895 12.481 11.0005 12L6.50049 8.4C6.18949 8.17 5.75949 8.2 5.50049 8.47C5.23049 8.74 5.20049 9.17 5.42949 9.47L5.56049 9.6L10.1105 13.15C10.6705 13.59 11.3495 13.83 12.0605 13.83C12.7695 13.83 13.4605 13.59 14.0195 13.15L18.5305 9.54Z"
+                                    fill="#231F20" />
+                            </svg>
+                            <span>iamsavvy@iamsavvy.com.sg</span>
+                        </a>
+                        <a class="header__tel" href="tel:+6597118886"><svg width="14" height="14" viewBox="0 0 14 14"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10.5972 8.3882C10.2053 8.30391 9.89535 8.48582 9.62089 8.6447C9.33981 8.80843 8.80534 9.242 8.49898 9.13103C6.93047 8.48522 5.45525 7.11235 4.81665 5.53754C4.70409 5.22465 5.13565 4.68678 5.29815 4.40238C5.45585 4.12707 5.63401 3.81418 5.55275 3.41941C5.47932 3.06468 4.52955 1.85613 4.1937 1.52565C3.9722 1.30735 3.74529 1.18728 3.51236 1.16788C2.63662 1.13028 1.65856 2.2988 1.48702 2.57835C1.05727 3.17443 1.05968 3.96759 1.49424 4.92933C2.54152 7.51256 6.50253 11.4111 9.09545 12.4977C9.57395 12.7215 10.0115 12.8337 10.4045 12.8337C10.7892 12.8337 11.1316 12.7263 11.4259 12.5135C11.648 12.3855 12.8645 11.3589 12.8326 10.4596C12.8133 10.2304 12.6935 10.0012 12.478 9.77926C12.15 9.44029 10.9493 8.46218 10.5972 8.3882Z"
+                                    fill="#231F20" />
+                            </svg>
+                            <span>+65 9711 8886</span>
+                        </a>
+                        <div class="header-login">
+                            <a class="header__btn" href="auth">Login</a>
+                        </div>
+                    </div>
+                    <div class="header__mob-col">
+                        <a class="header__mob-item js-login-open" href="#">
+                            <img src="vendor/img/h-mob-icon-2.svg" alt="SAVVY PLATFORM PTE. LTD">
+                        </a>
+                        <a class="header__mob-item" href="#">
+                            <img src="vendor/img/h-mob-icon-3.svg" alt="SAVVY PLATFORM PTE. LTD">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="container">
+                <div class="header-mob-top">
+                    <div class="header-mob-top__logo">
+                        <a href="https://savvy.bukino.ru/">
+                            <img src="vendor/img/logo.svg" alt="SAVVY PLATFORM PTE. LTD">
+                        </a>
+                    </div>
+                    <div class="header-mob-top__close js-menu-close">
+                        <img src="vendor/img/close.svg" alt="close">
+                    </div>
+                </div>
+                <nav class="header__nav">
+
+                    <ul>
+                        <li class="header__dropdown js-menu-dropdown">
+                            <a href="services/">Services</a><svg width="8" height="8" viewBox="0 0 8 8" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M3.72598 6.52308C3.75656 6.5675 3.79748 6.60381 3.84521 6.6289C3.89294 6.65398 3.94606 6.66709 3.99998 6.66709C4.0539 6.66709 4.10702 6.65398 4.15475 6.6289C4.20248 6.60381 4.2434 6.5675 4.27398 6.52308L7.27398 2.18975C7.3087 2.13977 7.32907 2.08123 7.33286 2.02048C7.33665 1.95974 7.32372 1.89912 7.29547 1.84521C7.26723 1.7913 7.22475 1.74616 7.17266 1.7147C7.12056 1.68324 7.06084 1.66665 6.99998 1.66675H0.999979C0.93926 1.667 0.879758 1.6838 0.827872 1.71534C0.775987 1.74687 0.73368 1.79196 0.705502 1.84575C0.677324 1.89953 0.664341 1.95998 0.667949 2.02059C0.671557 2.0812 0.691619 2.13969 0.725979 2.18975L3.72598 6.52308Z"
+                                    fill="white" />
+                            </svg>
+                            <ul>
+                                <ul class="">
+                                    <li><a href="services/savvy-start/">Savvy Start</a></li>
+                                    <li><a href="services/savvy-secretary/">Savvy Secretary</a></li>
+                                    <li><a href="services/savvy-smart/">Savvy Smart</a></li>
+                                </ul>
+                            </ul>
+                        </li>
+                        <li class="header__dropdown js-menu-dropdown">
+                            <a href="about-us/">About us</a><svg width="8" height="8" viewBox="0 0 8 8" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M3.72598 6.52308C3.75656 6.5675 3.79748 6.60381 3.84521 6.6289C3.89294 6.65398 3.94606 6.66709 3.99998 6.66709C4.0539 6.66709 4.10702 6.65398 4.15475 6.6289C4.20248 6.60381 4.2434 6.5675 4.27398 6.52308L7.27398 2.18975C7.3087 2.13977 7.32907 2.08123 7.33286 2.02048C7.33665 1.95974 7.32372 1.89912 7.29547 1.84521C7.26723 1.7913 7.22475 1.74616 7.17266 1.7147C7.12056 1.68324 7.06084 1.66665 6.99998 1.66675H0.999979C0.93926 1.667 0.879758 1.6838 0.827872 1.71534C0.775987 1.74687 0.73368 1.79196 0.705502 1.84575C0.677324 1.89953 0.664341 1.95998 0.667949 2.02059C0.671557 2.0812 0.691619 2.13969 0.725979 2.18975L3.72598 6.52308Z"
+                                    fill="white" />
+                            </svg>
+                            <ul>
+                                <ul class="">
+                                    <li><a href="about-us/about-company">About company</a></li>
+                                    <li><a href="about-us/about-platform">About platform</a></li>
+                                    <li><a href="about-us/contact-us">Contact us</a></li>
+                                </ul>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="pricing/">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="enquiry">Enquiry</a>
+                        </li>
+                        <li class="header__dropdown js-menu-dropdown">
+                            <a href="practical-information/">Practical Information</a><svg width="8" height="8"
+                                viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M3.72598 6.52308C3.75656 6.5675 3.79748 6.60381 3.84521 6.6289C3.89294 6.65398 3.94606 6.66709 3.99998 6.66709C4.0539 6.66709 4.10702 6.65398 4.15475 6.6289C4.20248 6.60381 4.2434 6.5675 4.27398 6.52308L7.27398 2.18975C7.3087 2.13977 7.32907 2.08123 7.33286 2.02048C7.33665 1.95974 7.32372 1.89912 7.29547 1.84521C7.26723 1.7913 7.22475 1.74616 7.17266 1.7147C7.12056 1.68324 7.06084 1.66665 6.99998 1.66675H0.999979C0.93926 1.667 0.879758 1.6838 0.827872 1.71534C0.775987 1.74687 0.73368 1.79196 0.705502 1.84575C0.677324 1.89953 0.664341 1.95998 0.667949 2.02059C0.671557 2.0812 0.691619 2.13969 0.725979 2.18975L3.72598 6.52308Z"
+                                    fill="white" />
+                            </svg>
+                            <ul>
+                                <ul class="">
+                                    <li><a href="practical-information/company-name-check">Company Name Check</a></li>
+                                </ul>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="office-auth-form">
+        <div class="mob-login" id="mob-login">
+            <div class="container">
+                <div class="header-mob-top">
+                    <div class="header-mob-top__logo">
+                        <a href="https://savvy.bukino.ru/">
+                            <img src="vendor/img/logo.svg" alt="SAVVY PLATFORM PTE. LTD">
+                        </a>
+                    </div>
+                    <div class="header-mob-top__close js-login-close">
+                        <img src="vendor/img/close.svg" alt="close">
+                    </div>
+                </div>
+                <form class="mob-login__form" id="office-auth-login">
+                    <div class="mob-login__sub">Enter</div>
+                    <div class="mob-login__item">
+                        <div class="mob-login__label">Login</div>
+                        <input class="mob-login__input" name="username" type="text" placeholder="johnsmith@gmail.com"
+                            id="office-auth-login-username" value="">
+                    </div>
+                    <div class="mob-login__item">
+                        <div class="mob-login__label">Password</div>
+                        <input class="mob-login__input" type="password" name="password" id="office-login-form-password"
+                            value="">
+                    </div>
+                    <div class="mob-login__forgot">
+                        <a href="forgot-password">Forgot your passowrd?</a>
+                    </div>
+                    <input type="hidden" name="action" value="auth/formLogin" />
+                    <input type="hidden" name="return" value="" />
+                    <div class="mob-login__btn-wrap">
+                        <div class="mob-login__btn">
+                            <button type="submit" class="btn">Enter</button>
+                        </div>
+                        <div class="mob-login__btn mob-login__btn--large">
+                            <a class="btn btn-border js-register-open" href="registration">Registration</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="mob-login" id="mob-register">
+            <div class="container">
+                <div class="header-mob-top">
+                    <div class="header-mob-top__logo">
+                        <a href="https://savvy.bukino.ru/">
+                            <img src="vendor/img/logo.svg" alt="SAVVY PLATFORM PTE. LTD">
+                        </a>
+                    </div>
+                    <div class="header-mob-top__close js-register-close">
+                        <img src="vendor/img/close.svg" alt="close">
+                    </div>
+                </div>
+                <form class="mob-login__form" id="office-auth-register">
+                    <div class="mob-login__sub">Registration</div>
+                    <div class="mob-login__item">
+                        <div class="mob-login__label">Full name</div>
+                        <input class="mob-login__input" type="text" name="fullname" placeholder="John Smith"
+                            id="office-auth-login-fullname" value="">
+                    </div>
+                    <div class="mob-login__item">
+                        <div class="mob-login__label">E-mail</div>
+                        <input class="mob-login__input" type="email" name="email" placeholder="johnsmith@gmail.com"
+                            id="office-auth-register-email" value="">
+                    </div>
+                    <div class="mob-login__item">
+                        <div class="mob-login__label">Phone number</div>
+                        <input class="mob-login__input" type="text" name="mobilephone" id="office-auth-register-phone"
+                            value="">
+                    </div>
+                    <div class="mob-login__item">
+                        <div class="mob-login__label">Password</div>
+                        <input class="mob-login__input" type="password" name="password"
+                            id="office-register-form-password" value="">
+                    </div>
+                    <div class="mob-login__item">
+                        <div class="mob-login__label">Password again</div>
+                        <input class="mob-login__input" type="password" name="password_add"
+                            id="office-register-form-password-add" value="">
+                    </div>
+                    <div class="mob-login__agree">
+                        <input type="hidden" name="register_agree" value="">
+                        <label>
+                            <input type="checkbox" name="register_agree" value="1">
+                            <span>I give my consent to the processing of&nbsp;personal data</span>
+                        </label>
+                    </div>
+                    <input type="hidden" name="action" value="auth_my/formRegister" />
+                    <div class="mob-login__btn-wrap">
+                        <div class="mob-login__btn mob-login__btn--large">
+                            <button type="submit" class="btn">Registration</button>
+                        </div>
+                        <div class="mob-login__btn">
+                            <a class="btn btn-border js-login-open" href="auth">Enter</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--<main class="main">
+        <section class="home-section">
+            <div class="home-section__slider swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="home-section__slide swiper-slide">
+                        <div class="home-section__item"
+                            style="background-image: url(/assets/cache_image/vendor/img/banners/1639726392_office-2_1920x600_a51.png)">
+                            <div class="container">
+                                <div class="home-section__content">
+                                    <h1 class="home-section__title">SAVVY PLATFORM</h1>
+                                    <div class="home-section__desc">Find the Dream Office Space for your Singapore
+                                        company here</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="home-section__slide swiper-slide">
+                        <div class="home-section__item"
+                            style="background-image: url(/assets/cache_image/vendor/img/banners/1639726392_team-1_1920x600_a51.png)">
+                            <div class="container">
+                                <div class="home-section__content">
+                                    <h1 class="home-section__title">SAVVY PLATFORM</h1>
+                                    <div class="home-section__desc">Manage your accounting, secretary, incorporation in
+                                        Singapore <b>online</b></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="home-section__slide swiper-slide">
+                        <div class="home-section__item"
+                            style="background-image: url(/assets/cache_image/vendor/img/banners/1639726392_team-2_1920x600_a51.png)">
+                            <div class="container">
+                                <div class="home-section__content">
+                                    <h1 class="home-section__title">SAVVY PLATFORM</h1>
+                                    <div class="home-section__desc">Complete your team in Singapore</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="home-section__controls">
+                        <div class="home-section__controls-wrap">
+                            <div class="home-section__prev"><svg width="50" height="44" viewBox="0 0 50 44" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M28.8808 15.5791L28.8032 15.4886C28.6662 15.3514 28.4845 15.2679 28.2911 15.2535C28.0977 15.239 27.9056 15.2945 27.7497 15.4099L27.6592 15.4886L22.2712 20.8761C22.1342 21.013 22.0509 21.1945 22.0365 21.3876C22.022 21.5808 22.0774 21.7726 22.1924 21.9284L22.2712 22.02L27.6592 27.414C27.8037 27.5574 27.9969 27.641 28.2003 27.6481C28.4037 27.6553 28.6023 27.5855 28.7566 27.4527C28.9108 27.3198 29.0092 27.1338 29.0322 26.9315C29.0553 26.7293 29.0012 26.5259 28.8808 26.3618L28.8032 26.2712L24.8018 22.2637H48.5281C48.7234 22.2637 48.912 22.1931 49.0593 22.0649C49.2065 21.9367 49.3024 21.7595 49.3292 21.5661L49.3368 21.4562C49.3368 21.2608 49.266 21.072 49.1376 20.9247C49.0091 20.7774 48.8317 20.6817 48.6381 20.6551L48.5281 20.6475L24.7878 20.6465L28.8032 16.6314C28.94 16.4944 29.0231 16.3128 29.0373 16.1197C29.0515 15.9266 28.996 15.7348 28.8808 15.5791Z"
+                                        fill="white" />
+                                    <path
+                                        d="M32.8712 33C30.7041 35.1756 27.9431 36.6572 24.9372 37.2574C21.9313 37.8577 18.8157 37.5496 15.9842 36.3722C13.1528 35.1948 10.7327 33.2009 9.03 30.6427C7.32731 28.0844 6.41851 25.0768 6.41851 22C6.41851 18.9232 7.32731 15.9156 9.03 13.3574C10.7327 10.7991 13.1528 8.80524 15.9842 7.62781C18.8157 6.45039 21.9313 6.14232 24.9372 6.74257C27.9431 7.34281 30.7041 8.82441 32.8712 11"
+                                        stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg></div>
+                            <div class="home-section__fraction"></div>
+                            <div class="home-section__next"><svg width="50" height="45" viewBox="0 0 50 45" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M21.1248 15.5714L21.2025 15.4809C21.3395 15.3437 21.5213 15.2603 21.7147 15.2459C21.9081 15.2315 22.1003 15.2869 22.2562 15.4022L22.3468 15.4809L27.736 20.8658C27.8729 21.0026 27.9562 21.184 27.9707 21.3771C27.9851 21.5701 27.9298 21.7618 27.8147 21.9175L27.736 22.0091L22.3468 27.4005C22.2022 27.5437 22.009 27.6273 21.8055 27.6345C21.602 27.6416 21.4034 27.5719 21.2491 27.4391C21.0949 27.3063 20.9964 27.1203 20.9734 26.9182C20.9503 26.7161 21.0044 26.5127 21.1248 26.3487L21.2025 26.2582L25.2047 22.2527H1.47323C1.27793 22.2527 1.08922 22.1821 0.941931 22.054C0.794646 21.9258 0.698738 21.7487 0.671917 21.5555L0.664367 21.4455C0.664375 21.2502 0.735162 21.0615 0.863636 20.9143C0.99211 20.7672 1.16958 20.6714 1.36323 20.6449L1.47323 20.6373L25.2188 20.6362L21.2025 16.6232C21.0657 16.4862 20.9826 16.3047 20.9683 16.1117C20.9541 15.9187 21.0096 15.727 21.1248 15.5714Z"
+                                        fill="white" />
+                                    <path
+                                        d="M17.1406 33.0027C19.3069 35.1785 22.067 36.6602 25.0718 37.2605C28.0766 37.8608 31.1911 37.5527 34.0215 36.3752C36.852 35.1976 39.2712 33.2036 40.9733 30.6451C42.6753 28.0867 43.5838 25.0788 43.5838 22.0018C43.5838 18.9248 42.6753 15.9169 40.9733 13.3584C39.2712 10.8 36.852 8.80595 34.0215 7.62843C31.1911 6.45091 28.0766 6.14282 25.0718 6.74311C22.067 7.34341 19.3069 8.82513 17.1406 11.0009"
+                                        stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section home-services">
+            <div class="container">
+                <div class="home-services__top">
+                    <div class="section-title">
+                        <h2>SERVICES</h2>
+                        <div class="section-title__link">
+                            <a href="services/">See all services</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="home-services__slider swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="home-services__slide swiper-slide">
+                            <a class="home-services__item" href="services/savvy-start/">
+                                <div class="home-services__img">
+                                    <img src="/vendor/img/home-services-img-2.svg" alt="Savvy Start">
+                                </div>
+                                <h3 class="home-services__sub">Savvy Start</h3>
+                                <p class="home-services__desc">The most cost efficient and the fastest solution to
+                                    kickstart your business in Singapore</p>
+                                <div class="home-services__link spec-link">
+                                    <span>Get started</span><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0 15C0 18.9782 1.58035 22.7936 4.3934 25.6066C7.20644 28.4196 11.0218 30 15 30C18.9782 30 22.7936 28.4196 25.6066 25.6066C28.4196 22.7936 30 18.9782 30 15C30 11.0218 28.4196 7.20644 25.6066 4.3934C22.7936 1.58035 18.9782 0 15 0C11.0218 0 7.20644 1.58035 4.3934 4.3934C1.58035 7.20644 0 11.0218 0 15H0ZM11.07 20.2556C10.9835 20.3452 10.8801 20.4166 10.7657 20.4657C10.6513 20.5149 10.5283 20.5407 10.4038 20.5418C10.2793 20.5429 10.1559 20.5192 10.0407 20.472C9.92545 20.4249 9.82078 20.3553 9.73275 20.2672C9.64473 20.1792 9.57512 20.0745 9.52798 19.9593C9.48084 19.8441 9.45712 19.7207 9.4582 19.5962C9.45928 19.4717 9.48515 19.3487 9.53428 19.2343C9.58341 19.1199 9.65483 19.0165 9.74438 18.93L17.4244 11.25H12.2344C11.9857 11.25 11.7473 11.1512 11.5715 10.9754C11.3956 10.7996 11.2969 10.5611 11.2969 10.3125C11.2969 10.0639 11.3956 9.8254 11.5715 9.64959C11.7473 9.47377 11.9857 9.375 12.2344 9.375H19.6875C19.9361 9.375 20.1746 9.47377 20.3504 9.64959C20.5262 9.8254 20.625 10.0639 20.625 10.3125V17.7656C20.625 18.0143 20.5262 18.2527 20.3504 18.4285C20.1746 18.6044 19.9361 18.7031 19.6875 18.7031C19.4389 18.7031 19.2004 18.6044 19.0246 18.4285C18.8488 18.2527 18.75 18.0143 18.75 17.7656V12.5756L11.07 20.2556Z"
+                                            fill="#24963B" />
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="home-services__slide swiper-slide">
+                            <a class="home-services__item" href="services/savvy-secretary/">
+                                <div class="home-services__img">
+                                    <img src="/vendor/img/home-services-img-1.svg" alt="Savvy Secretary">
+                                </div>
+                                <h3 class="home-services__sub">Savvy Secretary</h3>
+                                <p class="home-services__desc">SavvySecretary is a service offered by Savvy Platform
+                                    exclusively for its users.</p>
+                                <div class="home-services__link spec-link">
+                                    <span>Get started</span><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0 15C0 18.9782 1.58035 22.7936 4.3934 25.6066C7.20644 28.4196 11.0218 30 15 30C18.9782 30 22.7936 28.4196 25.6066 25.6066C28.4196 22.7936 30 18.9782 30 15C30 11.0218 28.4196 7.20644 25.6066 4.3934C22.7936 1.58035 18.9782 0 15 0C11.0218 0 7.20644 1.58035 4.3934 4.3934C1.58035 7.20644 0 11.0218 0 15H0ZM11.07 20.2556C10.9835 20.3452 10.8801 20.4166 10.7657 20.4657C10.6513 20.5149 10.5283 20.5407 10.4038 20.5418C10.2793 20.5429 10.1559 20.5192 10.0407 20.472C9.92545 20.4249 9.82078 20.3553 9.73275 20.2672C9.64473 20.1792 9.57512 20.0745 9.52798 19.9593C9.48084 19.8441 9.45712 19.7207 9.4582 19.5962C9.45928 19.4717 9.48515 19.3487 9.53428 19.2343C9.58341 19.1199 9.65483 19.0165 9.74438 18.93L17.4244 11.25H12.2344C11.9857 11.25 11.7473 11.1512 11.5715 10.9754C11.3956 10.7996 11.2969 10.5611 11.2969 10.3125C11.2969 10.0639 11.3956 9.8254 11.5715 9.64959C11.7473 9.47377 11.9857 9.375 12.2344 9.375H19.6875C19.9361 9.375 20.1746 9.47377 20.3504 9.64959C20.5262 9.8254 20.625 10.0639 20.625 10.3125V17.7656C20.625 18.0143 20.5262 18.2527 20.3504 18.4285C20.1746 18.6044 19.9361 18.7031 19.6875 18.7031C19.4389 18.7031 19.2004 18.6044 19.0246 18.4285C18.8488 18.2527 18.75 18.0143 18.75 17.7656V12.5756L11.07 20.2556Z"
+                                            fill="#24963B" />
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="home-services__slide swiper-slide">
+                            <a class="home-services__item" href="services/savvy-smart/">
+                                <div class="home-services__img">
+                                    <img src="/vendor/img/home-services-img-3.svg" alt="Savvy Smart">
+                                </div>
+                                <h3 class="home-services__sub">Savvy Smart</h3>
+                                <p class="home-services__desc">The most flexible Singapore Company Incorporation with a
+                                    choice of options for the office, Local Director and visas (Employment Pass)</p>
+                                <div class="home-services__link spec-link">
+                                    <span>Get started</span><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0 15C0 18.9782 1.58035 22.7936 4.3934 25.6066C7.20644 28.4196 11.0218 30 15 30C18.9782 30 22.7936 28.4196 25.6066 25.6066C28.4196 22.7936 30 18.9782 30 15C30 11.0218 28.4196 7.20644 25.6066 4.3934C22.7936 1.58035 18.9782 0 15 0C11.0218 0 7.20644 1.58035 4.3934 4.3934C1.58035 7.20644 0 11.0218 0 15H0ZM11.07 20.2556C10.9835 20.3452 10.8801 20.4166 10.7657 20.4657C10.6513 20.5149 10.5283 20.5407 10.4038 20.5418C10.2793 20.5429 10.1559 20.5192 10.0407 20.472C9.92545 20.4249 9.82078 20.3553 9.73275 20.2672C9.64473 20.1792 9.57512 20.0745 9.52798 19.9593C9.48084 19.8441 9.45712 19.7207 9.4582 19.5962C9.45928 19.4717 9.48515 19.3487 9.53428 19.2343C9.58341 19.1199 9.65483 19.0165 9.74438 18.93L17.4244 11.25H12.2344C11.9857 11.25 11.7473 11.1512 11.5715 10.9754C11.3956 10.7996 11.2969 10.5611 11.2969 10.3125C11.2969 10.0639 11.3956 9.8254 11.5715 9.64959C11.7473 9.47377 11.9857 9.375 12.2344 9.375H19.6875C19.9361 9.375 20.1746 9.47377 20.3504 9.64959C20.5262 9.8254 20.625 10.0639 20.625 10.3125V17.7656C20.625 18.0143 20.5262 18.2527 20.3504 18.4285C20.1746 18.6044 19.9361 18.7031 19.6875 18.7031C19.4389 18.7031 19.2004 18.6044 19.0246 18.4285C18.8488 18.2527 18.75 18.0143 18.75 17.7656V12.5756L11.07 20.2556Z"
+                                            fill="#24963B" />
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mob-more">
+                    <a class="mob-more__btn" href="services/">See all services</a>
+                </div>
+            </div>
+        </section>
+        <section class="section home-about" id="js-home-about">
+            <div class="container">
+                <div class="home-services__top">
+                    <div class="section-title">
+                        <h2>ABOUT SAVVY platform</h2>
+                        <div class="section-title__link">
+                            <a href="about-us/about-company">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-about__wrap">
+                    <div class="home-about__slider swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="home-about__slide swiper-slide">
+                                <img src="/assets/cache_image/vendor/img/home-about-img-1_440x520_b38.jpg"
+                                    alt="The most comprehensive business services platform in Singapore">
+                                <div class="home-about__text">The most comprehensive business services platform in
+                                    Singapore</div>
+                            </div>
+                            <div class="home-about__slide swiper-slide">
+                                <img src="/assets/cache_image/vendor/img/home-about-img-2_440x520_b38.jpg"
+                                    alt="All the necessary infrastructure for your Singapore business in one place">
+                                <div class="home-about__text">All the necessary infrastructure for your Singapore
+                                    business in one place</div>
+                            </div>
+                            <div class="home-about__slide swiper-slide">
+                                <img src="/assets/cache_image/vendor/img/home-about-img-3_440x520_b38.jpg"
+                                    alt="The best balance of digital and human">
+                                <div class="home-about__text">The best balance of digital and human</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="home-about__controls">
+                        <div class="home-about__pagination"></div>
+                        <div class="home-section__controls-wrap">
+                            <div class="home-section__prev js-home-about-prev"><svg width="50" height="44"
+                                    viewBox="0 0 50 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M28.8808 15.5791L28.8032 15.4886C28.6662 15.3514 28.4845 15.2679 28.2911 15.2535C28.0977 15.239 27.9056 15.2945 27.7497 15.4099L27.6592 15.4886L22.2712 20.8761C22.1342 21.013 22.0509 21.1945 22.0365 21.3876C22.022 21.5808 22.0774 21.7726 22.1924 21.9284L22.2712 22.02L27.6592 27.414C27.8037 27.5574 27.9969 27.641 28.2003 27.6481C28.4037 27.6553 28.6023 27.5855 28.7566 27.4527C28.9108 27.3198 29.0092 27.1338 29.0322 26.9315C29.0553 26.7293 29.0012 26.5259 28.8808 26.3618L28.8032 26.2712L24.8018 22.2637H48.5281C48.7234 22.2637 48.912 22.1931 49.0593 22.0649C49.2065 21.9367 49.3024 21.7595 49.3292 21.5661L49.3368 21.4562C49.3368 21.2608 49.266 21.072 49.1376 20.9247C49.0091 20.7774 48.8317 20.6817 48.6381 20.6551L48.5281 20.6475L24.7878 20.6465L28.8032 16.6314C28.94 16.4944 29.0231 16.3128 29.0373 16.1197C29.0515 15.9266 28.996 15.7348 28.8808 15.5791Z"
+                                        fill="#231F20" />
+                                    <path
+                                        d="M32.8712 33C30.7041 35.1756 27.9431 36.6572 24.9372 37.2574C21.9313 37.8577 18.8157 37.5496 15.9842 36.3722C13.1528 35.1948 10.7327 33.2009 9.03 30.6427C7.32731 28.0844 6.41851 25.0768 6.41851 22C6.41851 18.9232 7.32731 15.9156 9.03 13.3574C10.7327 10.7991 13.1528 8.80524 15.9842 7.62781C18.8157 6.45039 21.9313 6.14232 24.9372 6.74257C27.9431 7.34281 30.7041 8.82441 32.8712 11"
+                                        stroke="#231F20" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg></div>
+                            <div class="home-section__next js-home-about-next"><svg width="50" height="45"
+                                    viewBox="0 0 50 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M21.1248 15.5714L21.2025 15.4809C21.3395 15.3437 21.5213 15.2603 21.7147 15.2459C21.9081 15.2315 22.1003 15.2869 22.2562 15.4022L22.3468 15.4809L27.736 20.8658C27.8729 21.0026 27.9562 21.184 27.9707 21.3771C27.9851 21.5701 27.9298 21.7618 27.8147 21.9175L27.736 22.0091L22.3468 27.4005C22.2022 27.5437 22.009 27.6273 21.8055 27.6345C21.602 27.6416 21.4034 27.5719 21.2491 27.4391C21.0949 27.3063 20.9964 27.1203 20.9734 26.9182C20.9503 26.7161 21.0044 26.5127 21.1248 26.3487L21.2025 26.2582L25.2047 22.2527H1.47323C1.27793 22.2527 1.08922 22.1821 0.941931 22.054C0.794646 21.9258 0.698738 21.7487 0.671917 21.5555L0.664367 21.4455C0.664375 21.2502 0.735162 21.0615 0.863636 20.9143C0.99211 20.7672 1.16958 20.6714 1.36323 20.6449L1.47323 20.6373L25.2188 20.6362L21.2025 16.6232C21.0657 16.4862 20.9826 16.3047 20.9683 16.1117C20.9541 15.9187 21.0096 15.727 21.1248 15.5714Z"
+                                        fill="#231F20" />
+                                    <path
+                                        d="M17.1406 33.0027C19.3069 35.1785 22.067 36.6602 25.0718 37.2605C28.0766 37.8608 31.1911 37.5527 34.0215 36.3752C36.852 35.1976 39.2712 33.2036 40.9733 30.6451C42.6753 28.0867 43.5838 25.0788 43.5838 22.0018C43.5838 18.9248 42.6753 15.9169 40.9733 13.3584C39.2712 10.8 36.852 8.80595 34.0215 7.62843C31.1911 6.45091 28.0766 6.14282 25.0718 6.74311C22.067 7.34341 19.3069 8.82513 17.1406 11.0009"
+                                        stroke="#231F20" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg></div>
+                        </div>
+                    </div>
+                    <div class="home-about__img-wrap">
+                        <div class="home-about__img js-about-img">
+                            <img src="/assets/cache_image/vendor/img/home-about-img-1_440x520_b38.jpg"
+                                alt="The most comprehensive business services platform in Singapore">
+                        </div>
+                        <div class="home-about__img js-about-img">
+                            <img src="/assets/cache_image/vendor/img/home-about-img-2_440x520_b38.jpg"
+                                alt="All the necessary infrastructure for your Singapore business in one place">
+                        </div>
+                        <div class="home-about__img js-about-img">
+                            <img src="/assets/cache_image/vendor/img/home-about-img-3_440x520_b38.jpg"
+                                alt="The best balance of digital and human">
+                        </div>
+                    </div>
+                </div>
+                <div class="mob-more">
+                    <a class="mob-more__btn" href="about-us/about-company">Learn more</a>
+                </div>
+            </div>
+        </section>
+        <section class="section home-benefits">
+            <div class="container">
+                <div class="section-title">
+                    <h2>BENEFITS</h2>
+                </div>
+                <div class="home-benefits__wrap">
+                    <div class="home-benefits__content">
+                        <div class="home-benefits__row">
+                            <div class="home-benefits__col">
+                                <a class="home-benefits__item" href="services/savvy-start/">
+                                    <div class="home-benefits__icon">
+                                        <img src="vendor/img/home-benefits-icon-1.svg" alt="BEST PRICE WITH SAVVYSTART">
+                                    </div>
+                                    <h4 class="home-benefits__sub">BEST PRICE WITH SAVVYSTART</h4>
+                                    <div class="home-benefits__link">
+                                        <div class="spec-link">
+                                            <span>Check <span>the service</span></span><svg width="30" height="30"
+                                                viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M0 15C0 18.9782 1.58035 22.7936 4.3934 25.6066C7.20644 28.4196 11.0218 30 15 30C18.9782 30 22.7936 28.4196 25.6066 25.6066C28.4196 22.7936 30 18.9782 30 15C30 11.0218 28.4196 7.20644 25.6066 4.3934C22.7936 1.58035 18.9782 0 15 0C11.0218 0 7.20644 1.58035 4.3934 4.3934C1.58035 7.20644 0 11.0218 0 15H0ZM11.07 20.2556C10.9835 20.3452 10.8801 20.4166 10.7657 20.4657C10.6513 20.5149 10.5283 20.5407 10.4038 20.5418C10.2793 20.5429 10.1559 20.5192 10.0407 20.472C9.92545 20.4249 9.82078 20.3553 9.73275 20.2672C9.64473 20.1792 9.57512 20.0745 9.52798 19.9593C9.48084 19.8441 9.45712 19.7207 9.4582 19.5962C9.45928 19.4717 9.48515 19.3487 9.53428 19.2343C9.58341 19.1199 9.65483 19.0165 9.74438 18.93L17.4244 11.25H12.2344C11.9857 11.25 11.7473 11.1512 11.5715 10.9754C11.3956 10.7996 11.2969 10.5611 11.2969 10.3125C11.2969 10.0639 11.3956 9.8254 11.5715 9.64959C11.7473 9.47377 11.9857 9.375 12.2344 9.375H19.6875C19.9361 9.375 20.1746 9.47377 20.3504 9.64959C20.5262 9.8254 20.625 10.0639 20.625 10.3125V17.7656C20.625 18.0143 20.5262 18.2527 20.3504 18.4285C20.1746 18.6044 19.9361 18.7031 19.6875 18.7031C19.4389 18.7031 19.2004 18.6044 19.0246 18.4285C18.8488 18.2527 18.75 18.0143 18.75 17.7656V12.5756L11.07 20.2556Z"
+                                                    fill="#24963B" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="home-benefits__col">
+                                <a class="home-benefits__item" href="services/savvy-smart/">
+                                    <div class="home-benefits__icon">
+                                        <img src="vendor/img/home-benefits-icon-2.svg"
+                                            alt="MAXIMUM FLEXIBILITY WITH SAVVYSMART">
+                                    </div>
+                                    <h4 class="home-benefits__sub">MAXIMUM FLEXIBILITY WITH SAVVYSMART</h4>
+                                    <div class="home-benefits__link">
+                                        <div class="spec-link">
+                                            <span>Check <span>the service</span></span><svg width="30" height="30"
+                                                viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M0 15C0 18.9782 1.58035 22.7936 4.3934 25.6066C7.20644 28.4196 11.0218 30 15 30C18.9782 30 22.7936 28.4196 25.6066 25.6066C28.4196 22.7936 30 18.9782 30 15C30 11.0218 28.4196 7.20644 25.6066 4.3934C22.7936 1.58035 18.9782 0 15 0C11.0218 0 7.20644 1.58035 4.3934 4.3934C1.58035 7.20644 0 11.0218 0 15H0ZM11.07 20.2556C10.9835 20.3452 10.8801 20.4166 10.7657 20.4657C10.6513 20.5149 10.5283 20.5407 10.4038 20.5418C10.2793 20.5429 10.1559 20.5192 10.0407 20.472C9.92545 20.4249 9.82078 20.3553 9.73275 20.2672C9.64473 20.1792 9.57512 20.0745 9.52798 19.9593C9.48084 19.8441 9.45712 19.7207 9.4582 19.5962C9.45928 19.4717 9.48515 19.3487 9.53428 19.2343C9.58341 19.1199 9.65483 19.0165 9.74438 18.93L17.4244 11.25H12.2344C11.9857 11.25 11.7473 11.1512 11.5715 10.9754C11.3956 10.7996 11.2969 10.5611 11.2969 10.3125C11.2969 10.0639 11.3956 9.8254 11.5715 9.64959C11.7473 9.47377 11.9857 9.375 12.2344 9.375H19.6875C19.9361 9.375 20.1746 9.47377 20.3504 9.64959C20.5262 9.8254 20.625 10.0639 20.625 10.3125V17.7656C20.625 18.0143 20.5262 18.2527 20.3504 18.4285C20.1746 18.6044 19.9361 18.7031 19.6875 18.7031C19.4389 18.7031 19.2004 18.6044 19.0246 18.4285C18.8488 18.2527 18.75 18.0143 18.75 17.7656V12.5756L11.07 20.2556Z"
+                                                    fill="#24963B" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="home-benefits__col">
+                                <a class="home-benefits__item" href="services/savvy-secretary/">
+                                    <div class="home-benefits__icon">
+                                        <img src="vendor/img/home-benefits-icon-3.svg"
+                                            alt="INCLUSIVITY OF SAVVYSECRETARY">
+                                    </div>
+                                    <h4 class="home-benefits__sub">INCLUSIVITY OF SAVVYSECRETARY</h4>
+                                    <div class="home-benefits__link">
+                                        <div class="spec-link">
+                                            <span>Check <span>the service</span></span><svg width="30" height="30"
+                                                viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M0 15C0 18.9782 1.58035 22.7936 4.3934 25.6066C7.20644 28.4196 11.0218 30 15 30C18.9782 30 22.7936 28.4196 25.6066 25.6066C28.4196 22.7936 30 18.9782 30 15C30 11.0218 28.4196 7.20644 25.6066 4.3934C22.7936 1.58035 18.9782 0 15 0C11.0218 0 7.20644 1.58035 4.3934 4.3934C1.58035 7.20644 0 11.0218 0 15H0ZM11.07 20.2556C10.9835 20.3452 10.8801 20.4166 10.7657 20.4657C10.6513 20.5149 10.5283 20.5407 10.4038 20.5418C10.2793 20.5429 10.1559 20.5192 10.0407 20.472C9.92545 20.4249 9.82078 20.3553 9.73275 20.2672C9.64473 20.1792 9.57512 20.0745 9.52798 19.9593C9.48084 19.8441 9.45712 19.7207 9.4582 19.5962C9.45928 19.4717 9.48515 19.3487 9.53428 19.2343C9.58341 19.1199 9.65483 19.0165 9.74438 18.93L17.4244 11.25H12.2344C11.9857 11.25 11.7473 11.1512 11.5715 10.9754C11.3956 10.7996 11.2969 10.5611 11.2969 10.3125C11.2969 10.0639 11.3956 9.8254 11.5715 9.64959C11.7473 9.47377 11.9857 9.375 12.2344 9.375H19.6875C19.9361 9.375 20.1746 9.47377 20.3504 9.64959C20.5262 9.8254 20.625 10.0639 20.625 10.3125V17.7656C20.625 18.0143 20.5262 18.2527 20.3504 18.4285C20.1746 18.6044 19.9361 18.7031 19.6875 18.7031C19.4389 18.7031 19.2004 18.6044 19.0246 18.4285C18.8488 18.2527 18.75 18.0143 18.75 17.7656V12.5756L11.07 20.2556Z"
+                                                    fill="#24963B" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="home-benefits__col">
+                                <div class="home-benefits__item">
+                                    <div class="home-benefits__icon">
+                                        <img src="vendor/img/home-benefits-icon-4.svg"
+                                            alt="BEST OF TWO WORLDS &mdash; HUMAN AND DIGITAL">
+                                    </div>
+                                    <h4 class="home-benefits__sub">BEST OF TWO WORLDS — HUMAN AND DIGITAL</h4>
+                                </div>
+                            </div>
+                            <div class="home-benefits__col">
+                                <div class="home-benefits__item">
+                                    <div class="home-benefits__icon">
+                                        <img src="vendor/img/home-benefits-icon-5.svg"
+                                            alt="BANK ACCOUNTS &mdash; SAVVY ASSISTANCE UNTIL YOU SUCCEED">
+                                    </div>
+                                    <h4 class="home-benefits__sub">BANK ACCOUNTS — SAVVY ASSISTANCE UNTIL YOU SUCCEED
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="home-benefits__col">
+                                <a class="home-benefits__item" href="services/savvy-smart/">
+                                    <div class="home-benefits__icon">
+                                        <img src="vendor/img/home-benefits-icon-6.svg"
+                                            alt="SAVVY PEOPLE &mdash; KNOWLEDGEABLE AND&amp;nbsp;EXPERIENCED">
+                                    </div>
+                                    <h4 class="home-benefits__sub">SAVVY PEOPLE — KNOWLEDGEABLE AND&nbsp;EXPERIENCED
+                                    </h4>
+                                    <div class="home-benefits__link">
+                                        <div class="spec-link">
+                                            <span>Check <span>the service</span></span><svg width="30" height="30"
+                                                viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M0 15C0 18.9782 1.58035 22.7936 4.3934 25.6066C7.20644 28.4196 11.0218 30 15 30C18.9782 30 22.7936 28.4196 25.6066 25.6066C28.4196 22.7936 30 18.9782 30 15C30 11.0218 28.4196 7.20644 25.6066 4.3934C22.7936 1.58035 18.9782 0 15 0C11.0218 0 7.20644 1.58035 4.3934 4.3934C1.58035 7.20644 0 11.0218 0 15H0ZM11.07 20.2556C10.9835 20.3452 10.8801 20.4166 10.7657 20.4657C10.6513 20.5149 10.5283 20.5407 10.4038 20.5418C10.2793 20.5429 10.1559 20.5192 10.0407 20.472C9.92545 20.4249 9.82078 20.3553 9.73275 20.2672C9.64473 20.1792 9.57512 20.0745 9.52798 19.9593C9.48084 19.8441 9.45712 19.7207 9.4582 19.5962C9.45928 19.4717 9.48515 19.3487 9.53428 19.2343C9.58341 19.1199 9.65483 19.0165 9.74438 18.93L17.4244 11.25H12.2344C11.9857 11.25 11.7473 11.1512 11.5715 10.9754C11.3956 10.7996 11.2969 10.5611 11.2969 10.3125C11.2969 10.0639 11.3956 9.8254 11.5715 9.64959C11.7473 9.47377 11.9857 9.375 12.2344 9.375H19.6875C19.9361 9.375 20.1746 9.47377 20.3504 9.64959C20.5262 9.8254 20.625 10.0639 20.625 10.3125V17.7656C20.625 18.0143 20.5262 18.2527 20.3504 18.4285C20.1746 18.6044 19.9361 18.7031 19.6875 18.7031C19.4389 18.7031 19.2004 18.6044 19.0246 18.4285C18.8488 18.2527 18.75 18.0143 18.75 17.7656V12.5756L11.07 20.2556Z"
+                                                    fill="#24963B" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="home-benefits__col">
+                                <div class="home-benefits__item">
+                                    <div class="home-benefits__icon">
+                                        <img src="vendor/img/home-benefits-icon-7.svg" alt="WE CREATE SOLUTIONS">
+                                    </div>
+                                    <h4 class="home-benefits__sub">WE CREATE SOLUTIONS</h4>
+                                </div>
+                            </div>
+                            <div class="home-benefits__col">
+                                <a class="home-benefits__item" href="about-us/about-company">
+                                    <div class="home-benefits__icon">
+                                        <img src="vendor/img/home-benefits-icon-8.svg"
+                                            alt="WE DO MUCH MORE THAN OTHERS">
+                                    </div>
+                                    <h4 class="home-benefits__sub">WE DO MUCH MORE THAN OTHERS</h4>
+                                    <div class="home-benefits__link">
+                                        <div class="spec-link">
+                                            <span>Check <span>the service</span></span><svg width="30" height="30"
+                                                viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M0 15C0 18.9782 1.58035 22.7936 4.3934 25.6066C7.20644 28.4196 11.0218 30 15 30C18.9782 30 22.7936 28.4196 25.6066 25.6066C28.4196 22.7936 30 18.9782 30 15C30 11.0218 28.4196 7.20644 25.6066 4.3934C22.7936 1.58035 18.9782 0 15 0C11.0218 0 7.20644 1.58035 4.3934 4.3934C1.58035 7.20644 0 11.0218 0 15H0ZM11.07 20.2556C10.9835 20.3452 10.8801 20.4166 10.7657 20.4657C10.6513 20.5149 10.5283 20.5407 10.4038 20.5418C10.2793 20.5429 10.1559 20.5192 10.0407 20.472C9.92545 20.4249 9.82078 20.3553 9.73275 20.2672C9.64473 20.1792 9.57512 20.0745 9.52798 19.9593C9.48084 19.8441 9.45712 19.7207 9.4582 19.5962C9.45928 19.4717 9.48515 19.3487 9.53428 19.2343C9.58341 19.1199 9.65483 19.0165 9.74438 18.93L17.4244 11.25H12.2344C11.9857 11.25 11.7473 11.1512 11.5715 10.9754C11.3956 10.7996 11.2969 10.5611 11.2969 10.3125C11.2969 10.0639 11.3956 9.8254 11.5715 9.64959C11.7473 9.47377 11.9857 9.375 12.2344 9.375H19.6875C19.9361 9.375 20.1746 9.47377 20.3504 9.64959C20.5262 9.8254 20.625 10.0639 20.625 10.3125V17.7656C20.625 18.0143 20.5262 18.2527 20.3504 18.4285C20.1746 18.6044 19.9361 18.7031 19.6875 18.7031C19.4389 18.7031 19.2004 18.6044 19.0246 18.4285C18.8488 18.2527 18.75 18.0143 18.75 17.7656V12.5756L11.07 20.2556Z"
+                                                    fill="#24963B" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="home-benefits__img">
+                        <img src="vendor/img/home-benefits-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section questions-banner" id="anim-banner">
+            <div class="questions-banner__block">
+                <div class="container">
+                    <div class="questions-banner__content">
+                        <h2 class="questions-banner__title">ANY QUESTIONS?</h2>
+                        <p class="questions-banner__desc">Please send enquiry to SAVVY team</p>
+                        <div class="questions-banner__btn-wrap">
+                            <a class="questions-banner__btn" href="#feedback-modal" data-fancybox="" data-touch="false">
+                                <span>SEND AN ENQUIRY</span>
+                                <div class="questions-banner__btn-icon">
+                                    <img src="vendor/img/questions-banner-btn.svg" alt="SEND AN ENQUIRY">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="questions-banner__pl">
+                            <img class="js-pl-anim" src="vendor/img/questions-banner-pl.svg" alt="ANY QUESTIONS?">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section home-tools">
+            <div class="container">
+                <div class="section-title">
+                    <h2>PRACTICAL TOOLS</h2>
+                </div>
+                <div class="home-tools__list">
+                    <div class="home-tools__col">
+                        <a class="home-tools__item" href="practical-information/company-name-check">
+                            <div class="home-tools__row row">
+                                <div class="home-tools__img col">
+                                    <img src="vendor/img/home-tools-img-1.svg" alt="Check company name">
+                                </div>
+                                <div class="home-tools__sub col">Check company name</div>
+                                <div class="home-tools__desc col">
+                                    <p>The company's name must be original, i.e. not in use by other companies.</p>
+                                    <p>Here you can easily check whether your preferred name is available for
+                                        incorporation in Singapore</p>
+                                </div>
+                                <div class="home-tools__link col">
+                                    <div class="spec-link">
+                                        <span>Check</span><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0 15C0 18.9782 1.58035 22.7936 4.3934 25.6066C7.20644 28.4196 11.0218 30 15 30C18.9782 30 22.7936 28.4196 25.6066 25.6066C28.4196 22.7936 30 18.9782 30 15C30 11.0218 28.4196 7.20644 25.6066 4.3934C22.7936 1.58035 18.9782 0 15 0C11.0218 0 7.20644 1.58035 4.3934 4.3934C1.58035 7.20644 0 11.0218 0 15H0ZM11.07 20.2556C10.9835 20.3452 10.8801 20.4166 10.7657 20.4657C10.6513 20.5149 10.5283 20.5407 10.4038 20.5418C10.2793 20.5429 10.1559 20.5192 10.0407 20.472C9.92545 20.4249 9.82078 20.3553 9.73275 20.2672C9.64473 20.1792 9.57512 20.0745 9.52798 19.9593C9.48084 19.8441 9.45712 19.7207 9.4582 19.5962C9.45928 19.4717 9.48515 19.3487 9.53428 19.2343C9.58341 19.1199 9.65483 19.0165 9.74438 18.93L17.4244 11.25H12.2344C11.9857 11.25 11.7473 11.1512 11.5715 10.9754C11.3956 10.7996 11.2969 10.5611 11.2969 10.3125C11.2969 10.0639 11.3956 9.8254 11.5715 9.64959C11.7473 9.47377 11.9857 9.375 12.2344 9.375H19.6875C19.9361 9.375 20.1746 9.47377 20.3504 9.64959C20.5262 9.8254 20.625 10.0639 20.625 10.3125V17.7656C20.625 18.0143 20.5262 18.2527 20.3504 18.4285C20.1746 18.6044 19.9361 18.7031 19.6875 18.7031C19.4389 18.7031 19.2004 18.6044 19.0246 18.4285C18.8488 18.2527 18.75 18.0143 18.75 17.7656V12.5756L11.07 20.2556Z"
+                                                fill="#24963B" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="home-tools__col">
+                        <a class="home-tools__item" href="practical-information/company-name-check">
+                            <div class="home-tools__row row">
+                                <div class="home-tools__img col">
+                                    <img src="vendor/img/home-tools-img-2.svg" alt="Choose business actiVities">
+                                </div>
+                                <div class="home-tools__sub col">Choose business actiVities</div>
+                                <div class="home-tools__desc col">
+                                    <p>All Singapore Companies must submit information on their business activities in
+                                        accordance with Singapore Standard Industrial Classification (SSIC).</p>
+                                    <p>Here you can find relevant SSIC Code for the intended business activity of your
+                                        future Singapore Company</p>
+                                </div>
+                                <div class="home-tools__link col">
+                                    <div class="spec-link">
+                                        <span>Check</span><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0 15C0 18.9782 1.58035 22.7936 4.3934 25.6066C7.20644 28.4196 11.0218 30 15 30C18.9782 30 22.7936 28.4196 25.6066 25.6066C28.4196 22.7936 30 18.9782 30 15C30 11.0218 28.4196 7.20644 25.6066 4.3934C22.7936 1.58035 18.9782 0 15 0C11.0218 0 7.20644 1.58035 4.3934 4.3934C1.58035 7.20644 0 11.0218 0 15H0ZM11.07 20.2556C10.9835 20.3452 10.8801 20.4166 10.7657 20.4657C10.6513 20.5149 10.5283 20.5407 10.4038 20.5418C10.2793 20.5429 10.1559 20.5192 10.0407 20.472C9.92545 20.4249 9.82078 20.3553 9.73275 20.2672C9.64473 20.1792 9.57512 20.0745 9.52798 19.9593C9.48084 19.8441 9.45712 19.7207 9.4582 19.5962C9.45928 19.4717 9.48515 19.3487 9.53428 19.2343C9.58341 19.1199 9.65483 19.0165 9.74438 18.93L17.4244 11.25H12.2344C11.9857 11.25 11.7473 11.1512 11.5715 10.9754C11.3956 10.7996 11.2969 10.5611 11.2969 10.3125C11.2969 10.0639 11.3956 9.8254 11.5715 9.64959C11.7473 9.47377 11.9857 9.375 12.2344 9.375H19.6875C19.9361 9.375 20.1746 9.47377 20.3504 9.64959C20.5262 9.8254 20.625 10.0639 20.625 10.3125V17.7656C20.625 18.0143 20.5262 18.2527 20.3504 18.4285C20.1746 18.6044 19.9361 18.7031 19.6875 18.7031C19.4389 18.7031 19.2004 18.6044 19.0246 18.4285C18.8488 18.2527 18.75 18.0143 18.75 17.7656V12.5756L11.07 20.2556Z"
+                                                fill="#24963B" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="home-tools__col">
+                        <a class="home-tools__item" href="pricing/">
+                            <div class="home-tools__row row">
+                                <div class="home-tools__img col">
+                                    <img src="vendor/img/home-tools-img-3.svg" alt="Choose accounting plan">
+                                </div>
+                                <div class="home-tools__sub col">Choose accounting plan</div>
+                                <div class="home-tools__desc col">
+                                    <p>Our SAVVY team is committed to provide the highest quality accounting experience
+                                        at the most affordable and fair price.</p>
+                                    <p>Here you can see available accounting plans and choose the most relevant for your
+                                        business</p>
+                                </div>
+                                <div class="home-tools__link col">
+                                    <div class="spec-link">
+                                        <span>Check</span><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0 15C0 18.9782 1.58035 22.7936 4.3934 25.6066C7.20644 28.4196 11.0218 30 15 30C18.9782 30 22.7936 28.4196 25.6066 25.6066C28.4196 22.7936 30 18.9782 30 15C30 11.0218 28.4196 7.20644 25.6066 4.3934C22.7936 1.58035 18.9782 0 15 0C11.0218 0 7.20644 1.58035 4.3934 4.3934C1.58035 7.20644 0 11.0218 0 15H0ZM11.07 20.2556C10.9835 20.3452 10.8801 20.4166 10.7657 20.4657C10.6513 20.5149 10.5283 20.5407 10.4038 20.5418C10.2793 20.5429 10.1559 20.5192 10.0407 20.472C9.92545 20.4249 9.82078 20.3553 9.73275 20.2672C9.64473 20.1792 9.57512 20.0745 9.52798 19.9593C9.48084 19.8441 9.45712 19.7207 9.4582 19.5962C9.45928 19.4717 9.48515 19.3487 9.53428 19.2343C9.58341 19.1199 9.65483 19.0165 9.74438 18.93L17.4244 11.25H12.2344C11.9857 11.25 11.7473 11.1512 11.5715 10.9754C11.3956 10.7996 11.2969 10.5611 11.2969 10.3125C11.2969 10.0639 11.3956 9.8254 11.5715 9.64959C11.7473 9.47377 11.9857 9.375 12.2344 9.375H19.6875C19.9361 9.375 20.1746 9.47377 20.3504 9.64959C20.5262 9.8254 20.625 10.0639 20.625 10.3125V17.7656C20.625 18.0143 20.5262 18.2527 20.3504 18.4285C20.1746 18.6044 19.9361 18.7031 19.6875 18.7031C19.4389 18.7031 19.2004 18.6044 19.0246 18.4285C18.8488 18.2527 18.75 18.0143 18.75 17.7656V12.5756L11.07 20.2556Z"
+                                                fill="#24963B" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrap">
+                <div class="footer__row row">
+                    <div class="footer__col footer__col--large col">
+                        <div class="footer__logo">
+                            <a href="https://savvy.bukino.ru/">
+                                <img src="vendor/img/footer-logo.svg" alt="SAVVY PLATFORM PTE. LTD">
+                            </a>
+                        </div>
+                        <div class="footer__info">
+                            <div class="footer__info-item">
+                                <a href="terms-of-service">Terms of Service</a>
+                            </div>
+                            <div class="footer__info-item">
+                                <a href="privacy-policy">Privacy Policy</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__col col">
+                        <div class="footer__sub">
+                            <a href="services/">Services</a>
+                        </div>
+                        <ul class="">
+                            <div class="footer__link"><a href="services/savvy-start/">Savvy Start</a></div>
+                            <div class="footer__link"><a href="services/savvy-secretary/">Savvy Secretary</a></div>
+                            <div class="footer__link"><a href="services/savvy-smart/">Savvy Smart</a></div>
+                        </ul>
+                    </div>
+                    <div class="footer__col col">
+                        <div class="footer__sub">
+                            <a href="about-us/">About us</a>
+                        </div>
+                        <ul class="">
+                            <div class="footer__link"><a href="about-us/about-company">About company</a></div>
+                            <div class="footer__link"><a href="about-us/about-platform">About platform</a></div>
+                            <div class="footer__link"><a href="about-us/contact-us">Contact us</a></div>
+                        </ul>
+                    </div>
+                    <div class="footer__col footer__col--large col">
+                        <div class="footer__sub">
+                            <a href="practical-information/">Practical Information</a>
+                        </div>
+                        <ul class="">
+                            <div class="footer__link"><a href="practical-information/company-name-check">Company Name
+                                    Check</a></div>
+                        </ul>
+                    </div>
+                    <div class="footer__col col">
+                        <div class="footer__sub">
+                            <a href="enquiry">Enquiry</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <span>&copy; 2022, SAVVY PLATFORM PTE. LTD</span>
+                </div>
+            </div>
+        </div>
+    </footer>-->
+    <div class="feedback-modal" id="feedback-modal">
+
+        <div class="feedback-modal__close" data-fancybox-close><svg width="24" height="24" viewBox="0 0 24 24"
+                fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0)">
+                    <path
+                        d="M1.17185 24.0002C0.940043 24.0002 0.713431 23.9315 0.520677 23.8027C0.327923 23.674 0.177687 23.4909 0.0889723 23.2768C0.000257852 23.0626 -0.0229496 22.827 0.0222856 22.5996C0.0675207 22.3722 0.179166 22.1634 0.3431 21.9995L21.9993 0.34328C22.2191 0.123481 22.5173 0 22.8281 0C23.1389 0 23.4371 0.123481 23.6568 0.34328C23.8766 0.563078 24.0001 0.861188 24.0001 1.17203C24.0001 1.48287 23.8766 1.78098 23.6568 2.00078L2.0006 23.657C1.89187 23.766 1.76268 23.8524 1.62046 23.9113C1.47823 23.9702 1.32578 24.0004 1.17185 24.0002Z"
+                        fill="#231F20" />
+                    <path
+                        d="M22.828 24.0002C22.6741 24.0004 22.5216 23.9702 22.3794 23.9113C22.2372 23.8524 22.108 23.766 21.9993 23.657L0.343035 2.00078C0.123237 1.78098 -0.000244141 1.48287 -0.000244141 1.17203C-0.000244141 0.861188 0.123237 0.563078 0.343035 0.34328C0.562833 0.123481 0.860944 0 1.17179 0C1.48263 0 1.78074 0.123481 2.00054 0.34328L23.6568 21.9995C23.8207 22.1634 23.9324 22.3722 23.9776 22.5996C24.0228 22.827 23.9996 23.0626 23.9109 23.2768C23.8222 23.4909 23.672 23.674 23.4792 23.8027C23.2865 23.9315 23.0598 24.0002 22.828 24.0002Z"
+                        fill="#231F20" />
+                </g>
+                <defs>
+                    <clipPath id="clip0">
+                        <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                </defs>
+            </svg></div>
+        <form method="post" action="/" class="feedback-modal__form  ajax_form" id="jsModalForm">
+            <input type="hidden" name="formtime" value="1658739399">
+            <input type="hidden" name="svv_currency" value="SGD">
+            <input type="hidden" name="options_title" value="" class="jsModalFormOptionsTitle">
+            <input type="hidden" name="options" value="" class="jsModalFormOptions">
+            <input type="hidden" name="options_add_email" value="" class="jsModalFormAcraEmailOptions">
+
+            <input type="file" name="modal_file_1" value="" id="jsModalInputFile_1" class="jsModalInputFile_1"
+                style="display:none">
+
+            <a class="btn get_success_wrap" href="#success-modal" data-fancybox="" data-touch="false"
+                style="display:none">Успешная отправка</a>
+            <h3 class="feedback-modal__title">Enquiry</h3>
+            <div class="savvy-start__block">
+                <!--h4>First name*</h4-->
+                <div class="savvy-start__block-row">
+                    <div class="savvy-start__block-col savvy-start__block-left">
+                        <h5 class="savvy-start__label savvy-start__label--center">First name*</h5>
+                    </div>
+                    <div class="savvy-start__block-col savvy-start__block-right">
+                        <div class="savvy-start__block-wrap">
+                            <div class="main-input">
+                                <input type="text" class="jsLatInput" name="first_name" placeholder="John Smith">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="savvy-start__block-row">
+                    <div class="savvy-start__block-col savvy-start__block-left">
+                        <h5 class="savvy-start__label savvy-start__label--center">Second name*</h5>
+                    </div>
+                    <div class="savvy-start__block-col savvy-start__block-right">
+                        <div class="savvy-start__block-wrap">
+                            <div class="main-input">
+                                <input type="text" class="jsLatInput" name="last_name" placeholder="John Smith">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="savvy-start__block-row">
+                    <div class="savvy-start__block-col savvy-start__block-left">
+                        <h5 class="savvy-start__label savvy-start__label--center">Email*</h5>
+                    </div>
+                    <div class="savvy-start__block-col savvy-start__block-right">
+                        <div class="savvy-start__block-wrap">
+                            <div class="main-input">
+                                <input type="email" class="jsEmailInput" name="form_email"
+                                    placeholder="John Smith@gmail.com">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="savvy-start__block-row">
+                    <div class="savvy-start__block-col savvy-start__block-left">
+                        <h5 class="savvy-start__label savvy-start__label--center">Phone number</h5>
+                    </div>
+                    <div class="savvy-start__block-col savvy-start__block-right">
+
+
+
+                        <div class="savvy-start__block-wrap">
+                            <div class="main-input">
+                                <input type="tel" class="jsPhoneInput" name="phone_two">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="savvy-start__block-row">
+                    <div class="savvy-start__block-col savvy-start__block-left">
+                        <h5 class="savvy-start__label savvy-start__label--center">text enquiry</h5>
+                    </div>
+                    <div class="savvy-start__block-col savvy-start__block-right">
+                        <div class="savvy-start__block-wrap">
+                            <div class="main-input main-textarea main-textarea--medium">
+                                <textarea class="jsRegName" name="comment"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="savvy-start__block">
+                <h4>Declaration</h4>
+                <div class="savvy-start__block-row savvy-start__block-row--column">
+                    <div class="main-checkbox">
+                        <input type="hidden" name="agree_1" value="">
+                        <label>
+                            <input type="checkbox" name="agree_1" value="1">
+                            <span>I confirm that, to the best of my knowledge, all information provided above is true,
+                                correct and complete as of the date of the present declaration</span>
+                        </label>
+                    </div>
+                    <div class="main-checkbox">
+                        <input type="hidden" name="agree_2" value="">
+                        <label>
+                            <input type="checkbox" name="agree_2" value="1">
+                            <span>I understand that any amendments made after submission of this information to
+                                SavvyTeam may result in additional costs</span>
+                        </label>
+                    </div>
+                    <div class="main-checkbox">
+                        <input type="hidden" name="agree_3" value="">
+                        <label>
+                            <input type="checkbox" name="agree_3" value="1">
+                            <span>I am agreeable to the Terms and Conditions of provision of services by Savvy
+                                Platform</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="savvy-start__btns-bottom">
+                <div class="savvy-start__btn">
+                    <button type="submit" class="btn">Send the enquiry</button type="submit">
+                </div>
+            </div>
+
+            <input type="hidden" name="af_action" value="28051b23f023b5564198e711d9035379" />
+        </form>
+    </div>
+    <div class="success-modal" id="success-modal">
+        <div class="feedback-modal__close" data-fancybox-close><svg width="24" height="24" viewBox="0 0 24 24"
+                fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0)">
+                    <path
+                        d="M1.17185 24.0002C0.940043 24.0002 0.713431 23.9315 0.520677 23.8027C0.327923 23.674 0.177687 23.4909 0.0889723 23.2768C0.000257852 23.0626 -0.0229496 22.827 0.0222856 22.5996C0.0675207 22.3722 0.179166 22.1634 0.3431 21.9995L21.9993 0.34328C22.2191 0.123481 22.5173 0 22.8281 0C23.1389 0 23.4371 0.123481 23.6568 0.34328C23.8766 0.563078 24.0001 0.861188 24.0001 1.17203C24.0001 1.48287 23.8766 1.78098 23.6568 2.00078L2.0006 23.657C1.89187 23.766 1.76268 23.8524 1.62046 23.9113C1.47823 23.9702 1.32578 24.0004 1.17185 24.0002Z"
+                        fill="#231F20" />
+                    <path
+                        d="M22.828 24.0002C22.6741 24.0004 22.5216 23.9702 22.3794 23.9113C22.2372 23.8524 22.108 23.766 21.9993 23.657L0.343035 2.00078C0.123237 1.78098 -0.000244141 1.48287 -0.000244141 1.17203C-0.000244141 0.861188 0.123237 0.563078 0.343035 0.34328C0.562833 0.123481 0.860944 0 1.17179 0C1.48263 0 1.78074 0.123481 2.00054 0.34328L23.6568 21.9995C23.8207 22.1634 23.9324 22.3722 23.9776 22.5996C24.0228 22.827 23.9996 23.0626 23.9109 23.2768C23.8222 23.4909 23.672 23.674 23.4792 23.8027C23.2865 23.9315 23.0598 24.0002 22.828 24.0002Z"
+                        fill="#231F20" />
+                </g>
+                <defs>
+                    <clipPath id="clip0">
+                        <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                </defs>
+            </svg></div>
+        <div class="success-modal__content">
+            <h3 class="feedback-modal__title">Success</h3>
+            <div class="savvy-start__success">
+                <img src="vendor/img/success-icon.svg" alt="Success">
+            </div>
+        </div>
+    </div>
+    <script src="vendor/js/jquery-3.4.1.min.js"></script>
+    <script src="vendor/js/formstyler.min.js"></script>
+    <script src="vendor/js/perfect-scrollbar.min.js"></script>
+    <script src="vendor/js/swiper-bundle.min.js"></script>
+    <script src="vendor/js/jquery.fancybox.min.js"></script>
+    <script src="vendor/js/jquery.inputmask.min.js"></script>
+    <script src="vendor/js/scrollMagic.min.js"></script>
+    <script src="vendor/js/air-datepicker.js"></script>
+    <script src="vendor/js/main.js?v138"></script>
+    <script src="vendor/js/add-script.js?v130"></script>
+    <script src="vendor/js/custom.js?v130"></script>
+    <!-- Yandex.Metrika counter -->
+    <!--script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){ m[i]=m[i]||function(){ (m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(87668004, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/87668004" style="position:absolute; left:-9999px;" alt="" /></div></noscript-->
+    <!-- /Yandex.Metrika counter -->
+    <script src="/assets/components/mspaidoptions/js/web/options.min.js"></script>
+    <script src="/assets/components/office/js/main/default.js"></script>
+    <script src="/assets/components/office/js/auth/custom.js"></script>
+    <script src="/assets/components/ajaxform/js/default.js"></script>
+    <script
+        type="text/javascript">AjaxForm.initialize({ "assetsUrl": "\/assets\/components\/ajaxform\/", "actionUrl": "\/assets\/components\/ajaxform\/action.php", "closeMessage": "close all", "formSelector": "form.ajax_form", "pageId": 1 });</script>
+</body>
+
+</html>

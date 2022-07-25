@@ -1,0 +1,784 @@
+.dropdown__menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.main-input input[type="email"] {
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid rgba(57, 57, 58, 0.35);
+    border-radius: 4px;
+    padding: 11px 20px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #231F20;
+}
+
+.main-input {
+    position: relative;
+}
+
+.password-control {
+    position: absolute;
+    top: 14px;
+    right: 10px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url('/vendor/img/view.svg') 0 0 no-repeat;
+}
+
+.password-control.view {
+    background: url('/vendor/img/no-view.svg') 0 0 no-repeat;
+}
+
+.login__col--description {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.login__col--description p,
+.login__col--description li,
+.login__col--description a {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.savvy-start__block-wrap {
+    max-width: 500px;
+}
+
+.search-list__wrap {
+    min-height: 100px;
+}
+
+.search-list__item.select {
+    background-color: #FFF3EE;
+}
+
+.search-list__wrap p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    display: block;
+    padding: 11px 18px;
+}
+
+.number_of_shares_wrap {
+    display: none;
+}
+
+.show_block.number_of_shares_wrap {
+    display: flex;
+}
+
+/*.main-input input.error {
+    border-color: red;
+}*/
+.main-checkbox label input.error+span::before,
+form .main-input .error {
+    border-color: red;
+}
+
+form.ajax_form .error {
+    color: red;
+}
+
+.input_error.error,
+.input_error .error {
+    font-size: 14px;
+    line-height: 16px;
+    display: inline-block;
+    padding: 6px 0;
+}
+
+.main-file__row {
+    align-items: flex-start;
+}
+
+.jsFormSubmit img {
+    display: inherit;
+}
+
+.jsFormSubmit {
+    min-width: 240px;
+}
+
+.success.jsFormSubmit {
+    background-color: #4ad867;
+}
+
+.success-modal {
+    display: none;
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    padding: 80px 80px;
+}
+
+.success-modal .fancybox-close-small {
+    display: none;
+}
+
+.success-modal .savvy-start__success {
+    margin: 0;
+}
+
+.table-round__absolute {
+    position: absolute;
+    right: -3px;
+}
+
+.account-table table td>a {
+    position: relative;
+}
+
+.header-login__drop {
+    padding: 6px 10px 20px;
+}
+
+.header-login__drop-bottom {
+    adding: 16px 16px 0;
+    max-width: 100%;
+}
+
+.btn-filter {
+    line-height: 18px;
+    padding: 16px 20px;
+    font-size: 16px;
+    font-weight: 200;
+    margin-left: 30px;
+}
+
+.account-orders__filter-btn {
+    display: none;
+}
+
+.btn-clear {
+    background-color: gray;
+}
+
+.account-orders__date .main-input .color_red {
+    color: red;
+}
+
+.filter_warning_wrap {
+    margin-top: -30px;
+    position: absolute;
+    left: 54px;
+    right: 0;
+    height: 20px;
+    display: none;
+    font-size: 14px;
+    color: red;
+}
+
+.account-orders {
+    position: relative;
+}
+
+.savvy-smart__message {
+    padding: 20px 30px 20px;
+}
+
+.savvy-smart__message.green {
+    color: #24963b;
+    border-color: #24963b;
+}
+
+.check_name_btn {
+    min-width: 180px;
+    margin-bottom: 50px;
+}
+
+.btn.wait {
+    color: #ccc;
+    border-color: #ccc;
+}
+
+.empty_wrap {
+    font-size: 16px;
+}
+
+.acra_confirm_wrap {
+    font-size: 16px;
+    color: red;
+    padding-left: 20px;
+}
+
+.form-select.red+.jq-selectbox__select .jq-selectbox__select-text {
+    color: red;
+}
+
+.form-select.error+.jq-selectbox__select .jq-selectbox__select-text,
+.form-select.error_sel+.jq-selectbox__select .jq-selectbox__select-text,
+form .main-input .error_sel {
+    border-color: red;
+}
+
+.secretary-options__btn+.input_error {
+    position: absolute;
+}
+
+.secretary-options__block .secretary-options__block-col {
+    max-width: 336px;
+}
+
+.savvy-start-options__drop.no_drop {
+    background-color: transparent;
+    height: 0;
+}
+
+.dir_wrap_sheck .savvy-start__block {
+    margin-bottom: 20px;
+}
+
+.rooms_title_wrap {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.secretary-options__item-img {
+    max-width: 120px;
+}
+
+.contacts__info .contacts__item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hide_add_active_btn {
+    margin-left: 12px;
+}
+
+.hide_add_active_btn .btn {
+    padding: 18px 12px;
+    background-color: #e4aa3e;
+}
+
+.hide_add_active_btn .btn:hover {
+    background-color: #ccae76;
+}
+
+.jsNation .jq-selectbox__search input {
+    max-width: 100%;
+    width: 100%;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    padding: 4px 12px;
+}
+
+.jsNation .jq-selectbox__search {
+    margin-top: -9px;
+}
+
+.jsNation .jq-selectbox__not-found {
+    font-size: 16px;
+    padding: 4px 12px;
+    color: red;
+}
+
+.jsNation+div+.jq-selectbox__dropdown .select-scroll {
+    margin-top: 4px;
+}
+
+.account-directors__table tr td {
+    width: 25%;
+}
+
+.stuff_wrap_remove {
+    position: absolute;
+    left: auto;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.savvy-start__block {
+    position: relative;
+}
+
+.help-block.message {
+    color: #FF3E02;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.jsInputCheck[readonly] {
+    background-color: #eae5e5 !important;
+}
+
+.main-radio label input[disabled]+span::before {
+    background-color: #dcdada;
+}
+
+.main-radio label input[disabled]+span::after {
+    background-color: #dcdada;
+}
+
+.js-select[disabled]+.jq-selectbox__select .jq-selectbox__select-text {
+    background-color: #dcdada !important;
+}
+
+.mt-0 {
+    margin-top: 0 !important;
+}
+
+.pl-20 {
+    padding-left: 20px !important;
+}
+
+.main-count.jsPricingCountWrap {
+    margin-bottom: 20px;
+}
+
+.secretary-options__block-right.col {
+    position: relative;
+}
+
+.right_float {
+    float: right;
+    top: 0;
+    max-width: 132px;
+    right: 0;
+    position: absolute;
+    font-size: 14px;
+}
+
+.header__tel--email {
+    margin-right: 20px;
+    font-size: 16px;
+    margin-top: -2px;
+}
+
+.header__tel--email svg {
+    margin-top: 2px;
+}
+
+.secretary-options__bottom.small_top {
+    margin-top: 0;
+}
+
+.secretary-options__bottom.small_top .secretary-options__bottom-btn {
+    margin-top: 10px;
+}
+
+.steps-fee__row {
+    flex-wrap: wrap;
+}
+
+.steps-fee__left,
+.steps-fee__right {
+    width: 100%;
+}
+
+.steps-fee__left {
+    margin-bottom: 30px;
+}
+
+.steps-fee__form,
+.steps-fee__desc {
+    max-width: 550px;
+    margin: 30px auto 0;
+}
+
+.steps-fee__item {
+    margin-top: 40px;
+}
+
+.steps-fee__item p {
+    margin-bottom: 24px;
+}
+
+.courier_drop_form .secretary-options__block-left.col {
+    width: calc(100% / 12 * 5 - 8px);
+}
+
+.pl-0 {
+    padding-left: 0;
+}
+
+.main-file_custom {
+    margin-bottom: 12px;
+}
+
+.account-directors__sub--in {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+#feedback-modal-file {
+    padding: 30px;
+    max-width: 588px;
+}
+
+#feedback-modal-file .feedback-modal__title {
+    font-size: 30px;
+}
+
+.btn.btn_clone_file_input {
+    background-color: #667469;
+    padding: 12px 20px;
+    width: 210px;
+}
+
+.courier_drop_form--pricing .row {
+    flex-direction: column;
+}
+
+.pricing_files_wrap {
+    flex-direction: column;
+}
+
+.pricing_files_wrap .secretary-options__block-right.col {
+    margin-top: 20px;
+}
+
+.account-aside {
+    position: relative;
+}
+
+.account-aside__item+span,
+.header-login__drop-item+span,
+.account-tabs__item a+span,
+.tickets_list__item a+span {
+    position: absolute;
+    right: auto;
+    left: 200px;
+    margin-top: -34px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #FF8552;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.account-tabs__item a+span {
+    left: auto;
+    right: -14px;
+    top: 34px;
+}
+
+.account-tabs__item a+span>span {
+    width: auto;
+    height: auto;
+    background-color: transparent;
+}
+
+.account-aside__item+span {
+    left: auto;
+    margin-top: -30px;
+    right: 25px !important;
+}
+
+.header-login__drop-item+span {
+    /*left: 130px;
+    margin-top: -24px;*/
+    left: auto;
+    margin-top: -24px;
+    right: 8px !important;
+}
+
+.account-aside__item+span>span,
+.header-login__drop-item+span>span,
+.account-tabs__item a+span>span,
+.table-round.table-round__absolute>span,
+.tickets_list__item a+span>span {
+    position: absolute;
+    left: 4px;
+    bottom: 100%;
+    margin-bottom: 7px;
+    border: 1px solid #E6E6E6;
+    -webkit-box-shadow: 0px 4px 20px rgb(0 0 0 / 10%);
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    white-space: nowrap;
+    font-size: 12px;
+    line-height: 18px;
+    color: #39393A;
+    padding: 9px 19px;
+    z-index: 9;
+    background-color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+.account-tabs__item.last a+span>span {
+    left: auto;
+    right: 10px;
+}
+
+.table-round.table-round__absolute {
+    right: -10px;
+}
+
+.table-round.table-round__absolute>span {
+    left: auto;
+    right: -10px;
+}
+
+.table-round.table-round__absolute:hover>span {
+    opacity: 1;
+    visibility: visible;
+}
+
+.header-login__drop-item+span>span {
+    left: -200px;
+}
+
+.account-aside__item+span:hover>span,
+.header-login__drop-item+span:hover>span,
+.account-tabs__item a+span:hover>span {
+    opacity: 1;
+    visibility: visible;
+}
+
+.header-login__drop-item.active {
+    background-color: #fff;
+}
+
+.account-tabs__item {
+    position: relative;
+}
+
+.account__sub .accounting_files_subtitle {
+    margin-top: 15px;
+    font-size: 17px;
+    color: #24963b;
+}
+
+.feedback-modal-multifile {
+    max-width: 570px;
+    padding: 50px 30px;
+}
+
+.feedback-modal-multifile .feedback-modal__title {
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.feedback-modal-multifile .secretary-options__block-left {
+    width: 100%;
+}
+
+.feedback-modal-multifile .secretary-options__block-right {
+    width: 100%;
+}
+
+.feedback-modal-multifile .main-file__btn-col {
+    margin: 0 auto;
+}
+
+.feedback-modal-multifile .secretary-options__block-col {
+    max-width: 100%;
+}
+
+.feedback-modal-multifile .btn.btn_clone_file_input {
+    margin: 0 auto;
+    display: block;
+    max-width: 210px;
+}
+
+.feedback-modal-multifile .main-file__name {
+    justify-content: center;
+    display: flex;
+}
+
+.feedback-modal-multifile .acra_confirm_wrap.jsAccountFilesConfirmError {
+    margin-top: 12px;
+}
+
+.feedback-modal-multifile .savvy-start__btns-bottom {
+    flex-wrap: wrap;
+}
+
+.feedback-modal-add-folder {
+    padding: 57px 30px;
+}
+
+.feedback-modal-add-folder {
+    max-width: 500px;
+}
+
+.feedback-modal-add-folder .savvy-start__block-right {
+    width: 100%;
+    padding-left: 0;
+}
+
+.feedback-modal-add-folder .feedback-modal__title {
+    font-size: 29px;
+    line-height: 36px;
+}
+
+#jsModalFormFile .main-file__row {
+    flex-direction: column;
+    align-items: center;
+}
+
+#jsModalFormFile .main-file__name-col {
+    width: 100%;
+}
+
+.main-input input.error {
+    border-color: red;
+}
+
+.btn-small.btn-small--spec.btn-clear-filter {
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    top: -24px;
+    background-color: #c45529;
+    position: relative;
+    display: inline-block;
+}
+
+._tickets_list__item.account-tabs__item {
+    border: none;
+}
+
+._tickets_list__item.account-tabs__item a {
+    font-size: 16px;
+}
+
+.up_account .account-table__td-cream {
+    background-color: #dee7e0;
+}
+
+.green_color {
+    color: #30b50f;
+}
+
+.automatic_renewal_text li {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.automatic_renewal_text {
+    margin-top: 26px;
+}
+
+.automatic_renewal_input label span {
+    font-size: 20px;
+}
+
+.automatic_renewal_total_cost {
+    font-size: 18px;
+    margin-top: 16px;
+}
+
+.header__nav--mobile {
+    display: block;
+    margin-left: 0;
+}
+
+.header__nav--mobile .header__select .jq-selectbox__select {
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    color: green;
+    border-color: green;
+    height: 42px;
+    background-color: transparent;
+    z-index: 100;
+    position: relative;
+}
+
+.header__nav--mobile .header__select .jq-selectbox__select:before {
+    display: none;
+}
+
+.header__nav--mobile .header__select .jq-selectbox__dropdown {
+    border-color: transparent;
+    position: absolute;
+    width: 50px;
+    max-width: 50px;
+    margin-top: 12px;
+    margin-left: -2px;
+    border-radius: 0;
+}
+
+.savvy-start__block--deposit {
+    margin-top: 40px;
+}
+
+.pricing_payment_order {
+    margin-top: 30px;
+}
+
+#jsModalFormFile .savvy-start__add-item span {
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+@media (max-width: 1260px) {
+    .header__tel--email {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .account-orders__filter-btn {
+        flex-basis: 100%;
+        margin-top: 20px;
+    }
+
+    .account-orders__header {
+        flex-wrap: wrap;
+    }
+
+    .btn-filter {
+        margin-left: 20px;
+    }
+
+    .account-orders__filter {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .account-aside__item+span {
+        /*left: 134px;*/
+        margin-top: -23px;
+    }
+
+    .savvy-start__block-wrap-col:nth-child(2) {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .main-file_custom {
+        max-width: 255px;
+    }
+
+    .right_float {
+        position: relative;
+        max-width: initial;
+        float: none;
+        font-size: 12px;
+        top: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .account-aside__item+span>span {
+        left: auto;
+        right: -100px;
+        max-width: 220px;
+        white-space: normal;
+    }
+}
